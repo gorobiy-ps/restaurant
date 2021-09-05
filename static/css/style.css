@@ -1,0 +1,14 @@
+#hall { border: 1px solid #000; position: relative;}
+#datepicker { height: 300px;}
+#booking { display: none;}
+.datepicker-inline { margin: 10px auto 0;}
+.table {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table.rectangle { border: 1px solid red;}
+.table.ellipse { border-radius: 50%/50%; border: 1px solid green;}
+.table.booked { background-color: yellow;}
+.table.reserved { background-color: blue; color: white;}
